@@ -1507,6 +1507,15 @@ Filterscript:
   tm_scope: none
   ace_mode: text
   language_id: 112
+Flow:
+  type: programming
+  tm_scope: source.js.flow
+  extensions:
+  - ".flow"
+  - ".js"
+  ace_mode: javascript
+  codemirror_mode: javascript
+  codemirror_mime_type: application/javascript
 Formatted:
   type: data
   extensions:

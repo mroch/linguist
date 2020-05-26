@@ -225,6 +225,10 @@ disambiguations:
     - '^\s*(?:public\s+|private\s+|\s*)function\s+\w+\s*\([\w\s,]*\)\s*{'
   - language: POV-Ray SDL
     pattern: '^\s*#(declare|local|macro|while)\s'
+- extensions: ['.js']
+  rules:
+  - language: Flow
+    pattern: '\A\s*(//|/\*\*?|\*)\s*@flow\b'
 - extensions: ['.l']
   rules:
   - language: Common Lisp
